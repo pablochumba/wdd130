@@ -4,7 +4,12 @@ body {
 }
 
 nav {
+    display: flex;
+    justify-content: space-around;
     border-bottom: 1px solid #000;
+    background-color: lightcyan;
+    padding: 10px;
+    color: black;
 }
 
 nav,
@@ -45,11 +50,11 @@ aside img {
     box-shadow: 0 0 30px gray;
 }
 
-.main-content {
+.main {
     display: flex;
     align-items: center;
     gap: 15px;
-    width: auto;
+    max-width: auto;
     margin: 4rem;
     border: 1px solid rgb(0, 0, 0 / 0.2);
     padding: 10px;
