@@ -57,7 +57,7 @@ aside img {
     color: black
 }
 
-.aside-content {
+.aside {
     display: flex;
     align-items: center;
     gap: 15px;
