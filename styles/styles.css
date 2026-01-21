@@ -1,3 +1,7 @@
+:root {
+    --nav-background-color: lightcyan;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -8,14 +12,14 @@ nav {
     display: flex;
     justify-content: space-around;
     border-bottom: 1px solid #000;
-    background-color: lightcyan;
+    background-color: var(--nav-background-color);
     padding: 10px;
     color: black;
 }
 
 nav,
 footer {
-    background-color: lightcyan;
+    background-color: var(--nav-background-color);
     padding: 10px;
     color: black;
 }
