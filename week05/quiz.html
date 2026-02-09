@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/quiz.css">
+    <title>HTML & CSS Quiz</title>
+</head>
+
+<body>
+    <header>
+        <h1>Front-End Basics Quiz</h1>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Test your knowledge of HTML and CSS!</legend>
+
+                <label for="q1">1. What is the purpose of the &lt;head&gt; tag?</label>
+                <input type="text" id="q1" name="q1" placeholder="Type your answer here">
+
+                <label for="q2">2. Explain why we use CSS in web development:</label>
+                <textarea id="q2" name="q2" rows="4"
+                  placeholder="Write your explanation here"></textarea>
+
+                <label for="q3">3. Which CSS property changes text color?</label>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>Choose one...</option>
+                    <option value="color">color</option>
+                    <option value="font-weight">font-weight</option>
+                    <option value="text-decoration">text-decoration</option>
+                </select>
+
+                <label for="q4">4. How many heading tags are there in HTML?</label>
+                <input type="number" id="q4" name="q4" min="1" max="10">
+
+            </fieldset>
+
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; ©2026 ❄️ Pablo Chumba ❄️ Rancagua, Chile </p>
+    </footer>
+</body>
+
+</html>
