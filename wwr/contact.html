@@ -28,80 +28,99 @@
     </header>
 
     <main>
-        <div class="hero">
-            <img id="hero-img" src="images/hero.webp" alt="People rafting through river rapids">
-            <h1>Dry Oar Rafting: Have an Adventure!</h1>
-
-            <article>
-                <img src="images/rafting59_600.jpg" alt="Rafting team navigating river rapids">
-                <p>
-                    Our goal is to provide you with the best experience possible. We have been
-                    creating unforgettable trips
-                    for over 30 years with expert guides and a safety-first approach.
-                </p>
-            </article>
-        </div>
-
-        <section>
-            <h2>History</h2>
+        <section class="header-info">
+            <h1>Contact Deepwater Rafting Club</h1>
             <p>
-                Dry Oar started rafting the river in 1995. We are a family-owned and operated
-                business committed to
-                providing you with the best experience possible.
+                123 Main River Street<br>
+                Rancagua, Chile<br>
+                +56 9 9999 9999<br>
+                <a href="mailto:info@deepwaterrafting.com">info@deepwaterrafting.com</a>
             </p>
         </section>
 
-        <section>
-            <h2>Adventure Awaits You!</h2>
-
-            <div class="rivers">
-                <figure>
-                    <img src="images/drina.webp" alt="Two rafts resting on the riverbank">
-                    <figcaption>"Drina River"</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="images/tagliamento.webp"
-                      alt="Tagliamento river flowing between forested mountains">
-                    <figcaption>"Tagliamento River"</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="images/lofoten.webp"
-                      alt="Aerial view of a river branching into several channels">
-                    <figcaption>"Lofoten River"</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="images/maranon.webp"
-                      alt="Maranon river surrounded by gravel banks and forests">
-                    <figcaption>"Marañón River"</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="images/sava.webp" alt="Sava river flowing through a grassy landscape">
-                    <figcaption>"Sava River"</figcaption>
-                </figure>
+        <div class="contact-container">
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.383273515081!2d-70.74683168479383!3d-34.17013268057469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96636b596b865edb%3A0x1b2e3bdb4dd39113!2sRancagua%2C%20O%E2%80%99Higgins%2C%20Chile!5e0!3m2!1sen!2scl!4v1728523456789!5m2!1sen!2scl"
+                  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
 
+            <div class="contact-form">
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name..." required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your email..."
+                      required>
+
+                    <fieldset>
+                        <legend>Message Purpose</legend>
+                        <div class="radio-group">
+                            <label for="purpose-inquiry">
+                                <input type="radio" id="purpose-inquiry" name="purpose"
+                                  value="inquiry" required>
+                                General Inquiry
+                            </label>
+                            <label for="purpose-reservation">
+                                <input type="radio" id="purpose-reservation" name="purpose"
+                                  value="reservation">
+                                Reservation Question
+                            </label>
+                            <label for="purpose-suggestion">
+                                <input type="radio" id="purpose-suggestion" name="purpose"
+                                  value="suggestion">
+                                Website Suggestion
+                            </label>
+                        </div>
+                    </fieldset>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5"
+                      placeholder="Type your message here..."></textarea>
+
+                    <label for="subscribe" class="newsletter">
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        Please subscribe me to the monthly newsletter
+                    </label>
+
+                    <button type="submit">Get in Touch!</button>
+                </form>
+            </div>
+        </div>
+
+        <section class="adventure">
+            <h2>We Are Here to Serve You!</h2>
+            <div class="adventure-list">
+                <figure>
+                    <img src="./images/employee1.webp" alt="Employee 1">
+                    <figcaption>Sarah Lakex — Senior Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/employee2.webp" alt="Employee 2">
+                    <figcaption>Mike Lake — Customer Service</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/employee3.webp" alt="Employee 3">
+                    <figcaption>Kate Rapids — Safety Instructor</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>Dry Oar &copy; 2026 - Pablo Chumba</p>
-        <nav class="socialmedia">
-            <a href="https://facebook.com" target="_blank" rel="noopener">
-                <img src="images/facebook.png" alt="Facebook icon">
-            </a>
+        <div class="footer-content">
+            <section class="newsletter">
+                <h2>Join Our Newsletter</h2>
+                <form class="newsletter-form" action="#" method="post">
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <button type="submit" class="btn-cta">Subscribe</button>
+                </form>
+            </section>
 
-            <a href="https://twitter.com" target="_blank" rel="noopener">
-                <img src="images/x-icon.png" alt="X social media icon">
-            </a>
-
-            <a href="https://instagram.com" target="_blank" rel="noopener">
-                <img src="images/instagram-icon.png" alt="Instagram icon">
-            </a>
-        </nav>
+            <div>
 
     </footer>
 </body>
