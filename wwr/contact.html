@@ -28,49 +28,52 @@
     </header>
 
     <main>
-        <section class="header-info">
+        <section class="contact-header">
             <h1>Contact Deepwater Rafting Club</h1>
             <p>
-                123 Main River Street<br>
-                Rancagua, Chile<br>
-                +56 9 9999 9999<br>
+                123 Main River Street<br />
+                Rancagua, Chile<br />
+                +56 9 9999 9999<br />
                 <a href="mailto:info@deepwaterrafting.com">info@deepwaterrafting.com</a>
             </p>
         </section>
 
-        <div class="contact-container">
-            <div class="map">
+        <div class="contact-grid">
+            <div class="contact-map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.383273515081!2d-70.74683168479383!3d-34.17013268057469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96636b596b865edb%3A0x1b2e3bdb4dd39113!2sRancagua%2C%20O%E2%80%99Higgins%2C%20Chile!5e0!3m2!1sen!2scl!4v1728523456789!5m2!1sen!2scl"
                   allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </div>
 
-            <div class="contact-form">
+            <div class="contact-card">
                 <form>
                     <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" placeholder="Your name..." required>
+                    <input type="text" id="name" name="name" placeholder="Your name..." required />
 
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" placeholder="Your email..."
-                      required>
+                      required />
 
                     <fieldset>
                         <legend>Message Purpose</legend>
-                        <div class="radio-group">
+
+                        <div class="contact-radios">
                             <label for="purpose-inquiry">
                                 <input type="radio" id="purpose-inquiry" name="purpose"
-                                  value="inquiry" required>
+                                  value="inquiry" required />
                                 General Inquiry
                             </label>
+
                             <label for="purpose-reservation">
                                 <input type="radio" id="purpose-reservation" name="purpose"
-                                  value="reservation">
+                                  value="reservation" />
                                 Reservation Question
                             </label>
+
                             <label for="purpose-suggestion">
                                 <input type="radio" id="purpose-suggestion" name="purpose"
-                                  value="suggestion">
+                                  value="suggestion" />
                                 Website Suggestion
                             </label>
                         </div>
@@ -80,8 +83,8 @@
                     <textarea id="message" name="message" rows="5"
                       placeholder="Type your message here..."></textarea>
 
-                    <label for="subscribe" class="newsletter">
-                        <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe" class="contact-newsletter">
+                        <input type="checkbox" id="subscribe" name="subscribe" />
                         Please subscribe me to the monthly newsletter
                     </label>
 
@@ -89,38 +92,45 @@
                 </form>
             </div>
         </div>
-
-        <section class="adventure">
+        <section class="team-section">
             <h2>We Are Here to Serve You!</h2>
-            <div class="adventure-list">
+
+            <div class="team-grid">
                 <figure>
-                    <img src="./images/employee1.webp" alt="Employee 1">
-                    <figcaption>Sarah Lakex — Senior Guide</figcaption>
+                    <img src="./images/employee1.webp" alt="Employee 1" />
+                    <figcaption>Laura Mendoza — Customer Experience</figcaption>
+
                 </figure>
+
                 <figure>
-                    <img src="./images/employee2.webp" alt="Employee 2">
-                    <figcaption>Mike Lake — Customer Service</figcaption>
+                    <img src="./images/employee2.webp" alt="Employee 2" />
+                    <figcaption>Daniel Rivero — Lead River Guide</figcaption>
+
                 </figure>
+
                 <figure>
-                    <img src="./images/employee3.webp" alt="Employee 3">
-                    <figcaption>Kate Rapids — Safety Instructor</figcaption>
+                    <img src="./images/employee3.webp" alt="Employee 3" />
+                    <figcaption>Tomás Aguilar — Safety Specialist</figcaption>
                 </figure>
             </div>
         </section>
+
     </main>
-
     <footer>
-        <div class="footer-content">
-            <section class="newsletter">
-                <h2>Join Our Newsletter</h2>
-                <form class="newsletter-form" action="#" method="post">
-                    <input type="text" name="name" placeholder="Your name" required>
-                    <input type="email" name="email" placeholder="Your email" required>
-                    <button type="submit" class="btn-cta">Subscribe</button>
-                </form>
-            </section>
+        <p>Dry Oar &copy; 2026 - Pablo Chumba</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com" target="_blank" rel="noopener">
+                <img src="images/facebook.png" alt="Facebook icon">
+            </a>
 
-            <div>
+            <a href="https://twitter.com" target="_blank" rel="noopener">
+                <img src="images/x-icon.png" alt="X social media icon">
+            </a>
+
+            <a href="https://instagram.com" target="_blank" rel="noopener">
+                <img src="images/instagram-icon.png" alt="Instagram icon">
+            </a>
+        </nav>
 
     </footer>
 </body>
